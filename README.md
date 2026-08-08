@@ -10,7 +10,7 @@ Here you will make contributions to the code in the following way:
 original, in that changes made can be pulled by the original owner.
 
 Create changes to your code to add in your triangles. Test out the code, then copy your edits to the
-`Picture.java` file that is in the repository.
+`Tessellation.java` file that is in the repository.
 
 Commit your changes. Write an appropriate commit message to describe them.
 
@@ -31,14 +31,14 @@ produce.
 This repository contains two Java files:
 
 - `SimpleGraphics.java` — the drawing library. You shouldn't need to edit this file for this task.
-- `Picture.java` — where you'll add your code. Only the RED triangles are filled in; the other five colors
+- `Tessellation.java` — where you'll add your code. Only the RED triangles are filled in; the other five colors
   are left as empty comment stubs for you and your classmates to fill in. This is what you start with.
 <img width="604" height="430" alt="image" src="https://github.com/user-attachments/assets/6d6116cd-c235-4eca-a198-2b1a6b42ee8b" />
 
 
 ## Making Your Changes
 
-Open `Picture.java` and find the comment for your assigned color, e.g.:
+Open `Tessellation.java` and find the comment for your assigned color, e.g.:
 
 ```java
 // code for BLUE triangles
