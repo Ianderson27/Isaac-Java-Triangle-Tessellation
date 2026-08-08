@@ -33,7 +33,8 @@ This repository contains two Java files:
 - `SimpleGraphics.java` — the drawing library. You shouldn't need to edit this file for this task.
 - `Picture.java` — where you'll add your code. Only the RED triangles are filled in; the other five colors
   are left as empty comment stubs for you and your classmates to fill in. This is what you start with.
-<img width="595" height="424" alt="image" src="https://github.com/user-attachments/assets/df130c41-e6ca-44f8-a991-a374521c71ae" />
+<img width="604" height="430" alt="image" src="https://github.com/user-attachments/assets/6d6116cd-c235-4eca-a198-2b1a6b42ee8b" />
+
 
 ## Making Your Changes
 
