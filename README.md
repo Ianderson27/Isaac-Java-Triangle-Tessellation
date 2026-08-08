@@ -23,7 +23,8 @@ contributors' work. :)
 Here is the image that we will be creating. Decide with your classmates which color triangles you will
 produce.
 
-[Insert / link the target tessellation image here.]
+<img width="608" height="404" alt="image" src="https://github.com/user-attachments/assets/cafe99a0-8a09-48fc-9f11-333f65277e41" />
+
 
 ## The Files
 
@@ -31,7 +32,8 @@ This repository contains two Java files:
 
 - `SimpleGraphics.java` — the drawing library. You shouldn't need to edit this file for this task.
 - `Picture.java` — where you'll add your code. Only the RED triangles are filled in; the other five colors
-  are left as empty comment stubs for you and your classmates to fill in.
+  are left as empty comment stubs for you and your classmates to fill in. This is what you start with.
+<img width="595" height="424" alt="image" src="https://github.com/user-attachments/assets/df130c41-e6ca-44f8-a991-a374521c71ae" />
 
 ## Making Your Changes
 
