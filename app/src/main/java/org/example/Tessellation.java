@@ -8,7 +8,7 @@ public class Tessellation {
 
         // make some variables available
         // the color name "green" does not give the correct shade, so a hex code is used instead
-        String[] colors = {"red", "#00ff00", "blue", "cyan", "magenta", "yellow"};
+        String[] colors = {"#ff0000", "#00ff00", "#0000FF", "cyan", "magenta", "yellow"};
 
         // sizes of triangles are based on canvas size
         // we want to fit in 3 horizontally and 5 vertically.
@@ -30,7 +30,14 @@ public class Tessellation {
         }
 
         // code for BLUE triangles
-
+SimpleGraphics.setFillColor(colors[2]); // set fill color to blue
+        for (int i = 0; i < 5; i++) { // fillTriangle(x1, y1, x2, y2, x3, y3)
+            SimpleGraphics.fillTriangle(
+                2 * TRIANGLE_WIDTH, i * TRIANGLE_HEIGHT,
+                2 * TRIANGLE_WIDTH, (i+1) * TRIANGLE_HEIGHT,
+                3 * TRIANGLE_WIDTH, (i + 1) * TRIANGLE_HEIGHT
+            );
+        }
         // code for YELLOW triangles
 
         // code for GREEN triangles
