@@ -18,6 +18,15 @@ public class Tessellation {
         // ==================================================================
         // Draw the tessellation (you should only edit code below this part!)
         // ==================================================================
+        SimpleGraphics.setFillColor(colors[3]); // set fill color to cyan
+        for (int i=0; i < 5; i++){
+            SimpleGraphics.fillTriangle(
+                0, i * TRIANGLE_HEIGHT,
+                TRIANGLE_WIDTH, TRIANGLE_HEIGHT * (i + 1),
+                0, (i + 1) * TRIANGLE_HEIGHT
+            );
+            System.out.println("1");
+        }
 
         // code for RED triangles
         SimpleGraphics.setFillColor(colors[0]); // set fill color to red
@@ -27,6 +36,7 @@ public class Tessellation {
                 3 * TRIANGLE_WIDTH, i * TRIANGLE_HEIGHT,
                 3 * TRIANGLE_WIDTH, (i + 1) * TRIANGLE_HEIGHT
             );
+            System.out.println("2");
         }
 
         // code for BLUE triangles
@@ -38,6 +48,8 @@ public class Tessellation {
         // code for MAGENTA triangles
 
         // code for CYAN triangles
+
+
     }
 
     public static void main(String[] args) {
